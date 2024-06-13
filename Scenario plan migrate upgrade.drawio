@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T04:06:26.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.5.2" etag="Ncd4yulC9z3zzq9SAGHV" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T04:18:13.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="imcsZCF2pL4-oSe0uyUd" version="24.5.4" type="github">
   <diagram name="Page-1" id="fu_7YUwblNMLEbjCu1K0">
-    <mxGraphModel>
+    <mxGraphModel dx="753" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-6" value="Redhat (Infra Problem) (Dev)" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=260;height=20;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-4" value="VM server dev" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_server;" vertex="1" parent="Ggfx1PvwkrgleFsYsvZY-6">
+          <mxGeometry x="50" y="50" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-5" value="DB konsolidasi" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" vertex="1" parent="Ggfx1PvwkrgleFsYsvZY-6">
+          <mxGeometry x="50" y="190" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ggfx1PvwkrgleFsYsvZY-6" source="Ggfx1PvwkrgleFsYsvZY-4" target="Ggfx1PvwkrgleFsYsvZY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-8" value="Create new server" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
+          <mxGeometry x="240" y="30" width="410" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-11" value="VM server dev" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_server;" vertex="1" parent="Ggfx1PvwkrgleFsYsvZY-8">
+          <mxGeometry x="200" y="60" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-12" value="DB konsolidasi" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" vertex="1" parent="Ggfx1PvwkrgleFsYsvZY-8">
+          <mxGeometry x="200" y="160" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ggfx1PvwkrgleFsYsvZY-8" source="Ggfx1PvwkrgleFsYsvZY-11" target="Ggfx1PvwkrgleFsYsvZY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-14" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="Ggfx1PvwkrgleFsYsvZY-8">
+          <mxGeometry x="40" y="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ggfx1PvwkrgleFsYsvZY-8" source="Ggfx1PvwkrgleFsYsvZY-14" target="Ggfx1PvwkrgleFsYsvZY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-16" value="Fresh install apps" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ggfx1PvwkrgleFsYsvZY-15">
+          <mxGeometry x="-0.3294" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-9" value="Clone server Prod" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="410" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-17" value="VM server prod" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_server;" vertex="1" parent="Ggfx1PvwkrgleFsYsvZY-9">
+          <mxGeometry x="330" y="50" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-18" value="DB konsolidasi&lt;div&gt;SQL 2016&lt;/div&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" vertex="1" parent="Ggfx1PvwkrgleFsYsvZY-9">
+          <mxGeometry x="330" y="150" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ggfx1PvwkrgleFsYsvZY-9" source="Ggfx1PvwkrgleFsYsvZY-17" target="Ggfx1PvwkrgleFsYsvZY-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-20" value="VM server dev" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_server;" vertex="1" parent="Ggfx1PvwkrgleFsYsvZY-9">
+          <mxGeometry x="110" y="50" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-21" value="DB konsolidasi&lt;div&gt;SQL 2019&lt;/div&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" vertex="1" parent="Ggfx1PvwkrgleFsYsvZY-9">
+          <mxGeometry x="110" y="150" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ggfx1PvwkrgleFsYsvZY-9" source="Ggfx1PvwkrgleFsYsvZY-20" target="Ggfx1PvwkrgleFsYsvZY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ggfx1PvwkrgleFsYsvZY-9" source="Ggfx1PvwkrgleFsYsvZY-17" target="Ggfx1PvwkrgleFsYsvZY-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-25" value="Clone" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ggfx1PvwkrgleFsYsvZY-23">
+          <mxGeometry x="-0.22" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ggfx1PvwkrgleFsYsvZY-9" source="Ggfx1PvwkrgleFsYsvZY-18" target="Ggfx1PvwkrgleFsYsvZY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ggfx1PvwkrgleFsYsvZY-26" value="Clone" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ggfx1PvwkrgleFsYsvZY-24">
+          <mxGeometry x="0.23" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
